@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+img {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: red;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  margin-right: 10%;
+  margin-left: 10%;
+  border-bottom: 1px solid red;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: tomato;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar-brand:hover {
+  color: red;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  padding: 15px;
+}
+
+.navbar ul li a {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.navbar ul li a:hover {
+  color: red;
+}
+
+.container {
+  position: relative;
+  margin-top: 10%;
+  margin-left: 15%;
+}
+
+.container h1 {
+  font-size: 5rem;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container p {
+  margin-right: 20%;
+  text-align: center;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.btn {
+  margin-top: 4%;
+  margin-left: 40%;
+  padding: 15px;
+  width: 10%;
+  background-color: tomato;
+  font-size: 1.4rem;
+  font-family: 'Josefin Sans', sans-serif;
+  cursor: pointer;
+  color: black;
+  border-radius: 40px 40px;
+}
+
+.btn:hover {
+  background-color: red;
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  img {
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100vw;
+    margin: 0;
+    background-color: red;
+  }
+  .navbar ul {
+    margin-top: 30%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar ul li {
+    padding: 15px;
+    width: 100%;
+  }
+  .navbar ul li:hover {
+    background-color: tomato;
+    width: 100%;
+  }
+  .btn {
+    margin-top: 4%;
+    margin-left: 40%;
+    padding: 15px;
+    width: 30%;
+    background-color: tomato;
+    font-size: 1.4rem;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    color: black;
+    border-radius: 40px 40px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
